@@ -15,15 +15,15 @@ This program uses the CS50 library primarily for user prompting. After having co
 In order to encrypt a message with the Enigma emulator the user will first be prompted to pick the specific rotor ordering 1-5, where the first 1, 2 and 3 represent the ones used in the M1 Enigma model, and 4 and 5 represent the ones used in the Army enigma after 1938. Then the specific rotor position will be determined for each of the 3 rotors. After having initiated the rotor system the user will be prompted for 6 plugboard pairs totalling 12 letters. Finally a specific messages can be entered and encrypted/decrypted. 
   
 ### Example: encrypt 
-  Rotor-order: 1-2-3
-  Rotor-positions: A-B-C
-  Plugboard: qa-ws-ed-rf-tg-yh
-  Input: HELLO
-  Output: VAUEY
+  Rotor-order: 1-2-3\
+  Rotor-positions: A-B-C\
+  Plugboard: qa-ws-ed-rf-tg-yh\
+  Input: HELLO\
+  Output: VAUEY\
 
 ### Example: decrypt
-  Rotor-order: 1-2-3
-  Rotor-positions: A-B-C
-  Plugboard: qa-ws-ed-rf-tg-yh
-  Input: VAUEY
-  Output: HELLO
+  Rotor-order: 1-2-3\
+  Rotor-positions: A-B-C\
+  Plugboard: qa-ws-ed-rf-tg-yh\
+  Input: VAUEY\
+  Output: HELLO\
