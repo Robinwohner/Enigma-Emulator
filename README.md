@@ -8,9 +8,8 @@ The Enigma machine was an electrical encrypting device used by Nazi Germany duri
 Throughout this project I made it my goal to design the emulator in a way that would resemble a real enigma as closely as possible. This was done actively by researching the specific wirings of each rotor model, exact turnover notchpoints of each scrambler wheel, the reflecter model's specific letter substitutions, etc. All these features have been implimented to allow users to select inbetween the 5 rotor models true to that of those used in german army and air force during the Second World War. 
 
 ## Installation
-This program uses the CS50 library primarily for user prompting. After having copied over the repository to a local machine make sure to compile the program with the following GCC compiler that includes the CS50 library: `gcc -o enigma enigma.c -lcs50`. Finally run the code:
+This program uses the CS50 library primarily for user prompting. After having copied over the repository to a local machine (with `git clone https://github.com/Robinwohner/Enigma-Emulator`) make move to the directory (`cd enigma-emulator`) and compile the program with the GCC compile argument that includes the CS50 library: `gcc -o enigma enigma.c -lcs50`. Finally run the program:
 `./enigma`.
-
 
 ## How to use
 In order to encrypt a message with the Enigma emulator the user will first be prompted to pick the specific rotor ordering 1-5, where the first 1, 2 and 3 represent the ones used in the M1 Enigma model, and 4 and 5 represent the ones used in the Army enigma after 1938. Then the specific rotor position will be determined for each of the 3 rotors. After having initiated the rotor system the user will be prompted for 6 plugboard pairs totalling 12 letters. Finally a specific messages can be entered and encrypted/decrypted. 
