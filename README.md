@@ -17,13 +17,13 @@ In order to encrypt a message with the Enigma emulator the user will first be pr
 ### Example: encrypt 
   Rotor-order: 1-2-3\
   Rotor-positions: A-B-C\
-  Plugboard: qa-ws-ed-rf-tg-yh\
+  Plugboard: QA-WS-ED-RF-TG-YH\
   Input: HELLO\
   Output: VAUEY
 
 ### Example: decrypt
   Rotor-order: 1-2-3\
   Rotor-positions: A-B-C\
-  Plugboard: qa-ws-ed-rf-tg-yh\
+  Plugboard: QA-WS-ED-RF-TG-YH\
   Input: VAUEY\
   Output: HELLO
