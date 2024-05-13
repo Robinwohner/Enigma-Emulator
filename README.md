@@ -19,11 +19,11 @@ In order to encrypt a message with the Enigma emulator the user will first be pr
   Rotor-positions: A-B-C\
   Plugboard: qa-ws-ed-rf-tg-yh\
   Input: HELLO\
-  Output: VAUEY\
+  Output: VAUEY
 
 ### Example: decrypt
   Rotor-order: 1-2-3\
   Rotor-positions: A-B-C\
   Plugboard: qa-ws-ed-rf-tg-yh\
   Input: VAUEY\
-  Output: HELLO\
+  Output: HELLO
