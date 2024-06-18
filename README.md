@@ -12,7 +12,7 @@ This program uses the CS50 library primarily for user prompting. After having co
 `./enigma`.
 
 ## How to use
-In order to encrypt a message with the Enigma emulator the user will first be prompted to pick the specific rotor ordering 1-5, where the first 1, 2 and 3 represent the ones used in the M1 Enigma model, and 4 and 5 represent the ones used in the Army enigma after 1938. Then the specific rotor position will be determined for each of the 3 rotors. After having initiated the rotor system the user will be prompted for 6 plugboard pairs totalling 12 letters. Finally a specific messages can be entered and encrypted/decrypted. 
+In order to encrypt a message with the Enigma emulator the user will first be prompted to pick the specific rotor ordering 1-5, where the first 1, 2 and 3 represent the ones used in the M1 Enigma model, and 4 and 5 represent the ones used in the Army enigma after 1938. Then the specific rotor position will be determined for each of the 3 rotors. After having initiated the rotor system the user will be prompted for 6 plugboard pairs totalling 12 letters. Finally a specific messages can be entered and encrypted/decrypted. (The message should only consist of alphabetical letters.)
   
 ### Example: encrypt 
   Rotor-order: 1-2-3\
